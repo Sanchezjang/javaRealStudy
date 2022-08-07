@@ -1,9 +1,12 @@
 package java0729;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
+
+import javax.management.loading.PrivateClassLoader;
 
 public class java0729 {
 
@@ -44,7 +47,28 @@ public class java0729 {
 		queue.offer(6);
 		System.out.println(queue);
 		
+		String name = "장한진";
+		String name1 = "장한진";
 		
+		System.out.println(name.equals(name1));
+		System.out.println(name == name1);
+		
+		ArrayList<Integer> arr = new ArrayList<>();
+		String sum = "";
+		for(int i = 0; i<=2; i++) {
+			sum += i;
+		}System.out.println(sum);
+		
+		int num = 0;
+		for(int i = 0; i<=10; i++){
+			num += i;
+		}System.out.println(num);
+		
+		for(int i = 2; i<=9; i++) {
+			for(int j = 1; j<=9; j++) {
+				System.out.println(i+"x"+j+"="+(i*j));
+			}
+		}
 	}
 
 }
