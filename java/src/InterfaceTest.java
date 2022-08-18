@@ -1,5 +1,5 @@
 class A {
-	public void method(I i) {//인터페이스I를 구현한 넘들만 들어와라
+	public void method(I i) {//인터페이스I를 구현한 넘들만 들어와라.
 		i.method();
 	}
 }
