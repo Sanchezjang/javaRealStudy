@@ -23,7 +23,7 @@ public class InterfaceTest {
 	//인터페이스 장점 개발시간을 단축할수 있다.
 	// 변경에 유리한 유연한 설계가 가능하다. 
 	// 표준화가 가능하다.
-	// 서로 관계없는 클래스들의 관계를 맺어 줄수 있다. 인터페이
+	// 서로 관계없는 클래스들의 관계를 맺어 줄수 있다. 인터페이스
 	public static void main(String[] args) {
 		A a = new A();
 		a.method(new C());
