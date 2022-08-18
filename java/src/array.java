@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class array {
 
@@ -27,6 +28,22 @@ public class array {
 		//초기화 방법
 		int[] num1 = new int[] {50,60,70,80,90};
 		int[] num2 = {50,60,70,80,90};
+		System.out.println(Arrays.toString(num1));//for문없이 한번에배열을 출력하는 Arrays.toString
+		
+		
+		char[] chArr = {'a','b','c'};
+		System.out.println(chArr);//char만 한번에 출력이 가능함 for 문 없이 
+		
+		String[] strArr = new String[3];//String은 초기값이 없으면 null 반환
+		System.out.println(strArr[0]);
+		strArr[0] = "가위";
+		strArr[1] = "바위";
+		strArr[2] = "보";
+		
+		for(int i = 0; i<10; i++) {
+			int tmp1 = (int)(Math.random()*3);
+			System.out.println(strArr[tmp1]);
+		}
 	}
 
 }
